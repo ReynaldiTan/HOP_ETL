@@ -1,0 +1,15 @@
+{
+  "variables" : [ {
+    "name" : "CONNECTION_DB",
+    "value" : "[DB-PROD DB1]",
+    "description" : ""
+  }, {
+    "name" : "DBNAME",
+    "value" : "fnb_mki",
+    "description" : ""
+  }, {
+    "name" : "COMPANYCODE",
+    "value" : "MKI",
+    "description" : ""
+  } ]
+}

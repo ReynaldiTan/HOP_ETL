@@ -1,14 +1,14 @@
 {
   "rdbms": {
     "MYSQL": {
-      "databaseName": "esb_fnb",
+      "databaseName": "esb_billing",
       "pluginId": "MYSQL",
       "accessType": 0,
-      "hostname": "${HOST}",
-      "password": "${PASS}",
+      "hostname": "172.31.242.164",
+      "password": "Encrypted 2be98afc86aa784a98329a852c9b7a1c9",
       "pluginName": "MySQL",
-      "port": "${PORT}",
-      "driverClassName": "Mysql",
+      "port": "3306",
+      "driverClassName": "Mysql 8+",
       "attributes": {
         "SUPPORTS_TIMESTAMP_DATA_TYPE": "N",
         "STREAM_RESULTS": "N",
@@ -24,8 +24,8 @@
         "PREFERRED_SCHEMA_NAME": ""
       },
       "manualUrl": "",
-      "username": "${UNAME}"
+      "username": "darey"
     }
   },
-  "name": "[DB-VARIABLE-CONNECTION]"
+  "name": "[DB-PROD BILLING]"
 }
